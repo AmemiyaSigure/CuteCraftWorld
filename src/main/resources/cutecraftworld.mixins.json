@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "cx.rain.fabricmod.cutecraftworld.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+  ],
+  "server":[
   ],
   "injectors": {
     "defaultRequire": 1
