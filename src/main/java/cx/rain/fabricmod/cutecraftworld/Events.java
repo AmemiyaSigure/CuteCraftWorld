@@ -26,7 +26,7 @@ public class Events {
                         entity.getBoundingBox().expand(16.0D, 3.0D, 16.0D));
 
                 for (Entity a : animals) {
-                    if (a instanceof AnimalEntity) {
+                    if (a.equals(entity)) {
                         AnimalEntity animal = (AnimalEntity) a;
                         animal.setAttacker(playerEntity);
                     }
